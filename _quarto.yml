@@ -6,8 +6,8 @@ params:
 
 website: 
   page-navigation: true
-  title: "Website Template" 
-  site-url: "https://dharaden.github.io/site-template"
+  title: "PADME Lab" 
+  site-url: "https://dharaden.github.io/padme-lab"
   
   repo-url: https://github.com/dharaden/site-template 
   repo-actions: [issue]
@@ -41,6 +41,8 @@ website:
     contents:
       - section: "Course Information"
         contents:
+          - href: fun-stuff.qmd
+            text: "Cool Things"
           - href: index.qmd
             text: Home
           - href: course-overview.qmd
